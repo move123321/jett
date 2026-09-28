@@ -2,6 +2,12 @@
 
 원본 디자인을 유지하는 Live2D 파츠 준비 및 동작 미리보기 작업입니다.
 
+## 웹에서 바로 실행
+
+[제트 동작 미리보기 열기](https://move123321.github.io/jett/)
+
+설치 없이 브라우저에서 실행할 수 있습니다. `docs/index.html`이 GitHub Pages 배포본입니다.
+
 ## 현재 결과
 
 - `outputs/Live2D_motion_v2/`: 최신 파츠 PSD, 투명 PNG, 리깅 계획, 브라우저 동작 미리보기와 검증 결과.
