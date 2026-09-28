@@ -1,0 +1,398 @@
+{
+  "width": 341,
+  "height": 361,
+  "psd": "Jett_Cubism_import_art.psd",
+  "preview": "character_transparent.png",
+  "status": "HIDDEN_RESTORATION_PLUS_SOURCE_PIXELS_MOTION_PROOF",
+  "sourceVisiblePixelsUnchanged": true,
+  "restorationGenerated": true,
+  "layers": [
+    {
+      "name": "Restore_Skin",
+      "file": "parts/Restore_Skin.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Restore_HairOverlap",
+      "file": "parts/Restore_HairOverlap.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Restore_EyeWhite_L",
+      "file": "parts/Restore_EyeWhite_L.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Restore_EyeWhite_R",
+      "file": "parts/Restore_EyeWhite_R.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Hood_Back",
+      "file": "parts/Hood_Back.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 9607,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Outfit_VisibleBottom",
+      "file": "parts/Outfit_VisibleBottom.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 1194,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hood_Rim_R",
+      "file": "parts/Hood_Rim_R.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 422,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hood_Front_R",
+      "file": "parts/Hood_Front_R.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 1300,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hood_Front_L",
+      "file": "parts/Hood_Front_L.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 1547,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Neck_Base",
+      "file": "parts/Neck_Base.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 4159,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Face_Base",
+      "file": "parts/Face_Base.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 16688,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Ear_R",
+      "file": "parts/Ear_R.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 317,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Ear_L",
+      "file": "parts/Ear_L.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 174,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Back_R",
+      "file": "parts/Hair_Back_R.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 883,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Back_L",
+      "file": "parts/Hair_Back_L.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 1225,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Bun",
+      "file": "parts/Hair_Bun.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 5332,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Crown",
+      "file": "parts/Hair_Crown.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 7822,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Front_R_Outer",
+      "file": "parts/Hair_Front_R_Outer.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 4557,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Front_R_Inner",
+      "file": "parts/Hair_Front_R_Inner.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 4447,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Front_L_Main",
+      "file": "parts/Hair_Front_L_Main.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 5406,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Front_Center",
+      "file": "parts/Hair_Front_Center.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 2943,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Front_L_Inner",
+      "file": "parts/Hair_Front_L_Inner.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 2605,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Side_R",
+      "file": "parts/Hair_Side_R.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 2275,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Side_L",
+      "file": "parts/Hair_Side_L.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 1986,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Hair_Side_L_Outer",
+      "file": "parts/Hair_Side_L_Outer.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 849,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Brow_R",
+      "file": "parts/Brow_R.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 467,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Brow_L",
+      "file": "parts/Brow_L.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 358,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_R_White",
+      "file": "parts/Eye_R_White.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 193,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_L_White",
+      "file": "parts/Eye_L_White.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 139,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_R_Iris",
+      "file": "parts/Eye_R_Iris.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 127,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_L_Iris",
+      "file": "parts/Eye_L_Iris.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 115,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_R_Pupil",
+      "file": "parts/Eye_R_Pupil.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 26,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_L_Pupil",
+      "file": "parts/Eye_L_Pupil.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 39,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_R_Highlight",
+      "file": "parts/Eye_R_Highlight.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 7,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_L_Highlight",
+      "file": "parts/Eye_L_Highlight.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 10,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_R_LashUpper",
+      "file": "parts/Eye_R_LashUpper.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 308,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_L_LashUpper",
+      "file": "parts/Eye_L_LashUpper.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 364,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_R_LashLower",
+      "file": "parts/Eye_R_LashLower.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 104,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Eye_L_LashLower",
+      "file": "parts/Eye_L_LashLower.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 119,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Nose_Shading",
+      "file": "parts/Nose_Shading.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 545,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Mouth_LipUpper",
+      "file": "parts/Mouth_LipUpper.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 143,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Mouth_LipLower",
+      "file": "parts/Mouth_LipLower.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 295,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Mouth_Line",
+      "file": "parts/Mouth_Line.png",
+      "x": 0,
+      "y": 0,
+      "pixels": 126,
+      "note": "원본에서 보이는 픽셀만 분리. 가려진 부분 복원 필요."
+    },
+    {
+      "name": "Head_EdgeResidual",
+      "file": "parts/Head_EdgeResidual.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Body_EdgeResidual",
+      "file": "parts/Body_EdgeResidual.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Eye_R_Context",
+      "file": "parts/Eye_R_Context.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Eye_L_Context",
+      "file": "parts/Eye_L_Context.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Mouth_Context",
+      "file": "parts/Mouth_Context.png",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Restore_MouthInside",
+      "file": "parts/Restore_MouthInside.png",
+      "x": 0,
+      "y": 0,
+      "hidden": true
+    },
+    {
+      "name": "Restore_TeethUpper",
+      "file": "parts/Restore_TeethUpper.png",
+      "x": 0,
+      "y": 0,
+      "hidden": true
+    },
+    {
+      "name": "Restore_Tongue",
+      "file": "parts/Restore_Tongue.png",
+      "x": 0,
+      "y": 0,
+      "hidden": true
+    }
+  ]
+}

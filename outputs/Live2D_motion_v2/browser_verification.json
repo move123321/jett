@@ -1,0 +1,23 @@
+{
+  "browser": "Chrome headless",
+  "neutralEqualsOriginalRGBA": true,
+  "changedPixels": {
+    "blink": 2308,
+    "gaze": 362,
+    "mouth": 1238,
+    "combined": 85274
+  },
+  "physics": {
+    "initial": 0.027904,
+    "settled": 3.295047197939219e-16,
+    "stable": true
+  },
+  "audioLipSync": {
+    "mouthOpening": 0.9999997168819994,
+    "context": "running",
+    "paused": false
+  },
+  "settingsExport": true,
+  "microphoneDeviceTested": false,
+  "javascriptErrors": []
+}

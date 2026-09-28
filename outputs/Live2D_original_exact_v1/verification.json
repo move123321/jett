@@ -1,0 +1,211 @@
+{
+  "width": 341,
+  "height": 361,
+  "layers": 40,
+  "emptyLayers": 0,
+  "individualLayerDecodeVerified": true,
+  "independentLayerCompositeEqualsOriginalRGBA": true,
+  "photoshopOrCubismGUIValidation": false,
+  "layersVerified": [
+    {
+      "layer": "Background_Unassigned_Original",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 43878
+    },
+    {
+      "layer": "Hood_Back",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 9607
+    },
+    {
+      "layer": "Outfit_VisibleBottom",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 1194
+    },
+    {
+      "layer": "Hood_Rim_R",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 422
+    },
+    {
+      "layer": "Hood_Front_R",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 1300
+    },
+    {
+      "layer": "Hood_Front_L",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 1547
+    },
+    {
+      "layer": "Neck_Base",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 4159
+    },
+    {
+      "layer": "Face_Base",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 16688
+    },
+    {
+      "layer": "Ear_R",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 317
+    },
+    {
+      "layer": "Ear_L",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 174
+    },
+    {
+      "layer": "Hair_Back_R",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 883
+    },
+    {
+      "layer": "Hair_Back_L",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 1225
+    },
+    {
+      "layer": "Hair_Bun",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 5332
+    },
+    {
+      "layer": "Hair_Crown",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 7822
+    },
+    {
+      "layer": "Hair_Front_R_Outer",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 4557
+    },
+    {
+      "layer": "Hair_Front_R_Inner",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 4447
+    },
+    {
+      "layer": "Hair_Front_L_Main",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 5406
+    },
+    {
+      "layer": "Hair_Front_Center",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 2943
+    },
+    {
+      "layer": "Hair_Front_L_Inner",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 2605
+    },
+    {
+      "layer": "Hair_Side_R",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 2275
+    },
+    {
+      "layer": "Hair_Side_L",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 1986
+    },
+    {
+      "layer": "Hair_Side_L_Outer",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 849
+    },
+    {
+      "layer": "Brow_R",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 467
+    },
+    {
+      "layer": "Brow_L",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 358
+    },
+    {
+      "layer": "Eye_R_White",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 193
+    },
+    {
+      "layer": "Eye_L_White",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 139
+    },
+    {
+      "layer": "Eye_R_Iris",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 127
+    },
+    {
+      "layer": "Eye_L_Iris",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 115
+    },
+    {
+      "layer": "Eye_R_Pupil",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 26
+    },
+    {
+      "layer": "Eye_L_Pupil",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 39
+    },
+    {
+      "layer": "Eye_R_Highlight",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 7
+    },
+    {
+      "layer": "Eye_L_Highlight",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 10
+    },
+    {
+      "layer": "Eye_R_LashUpper",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 308
+    },
+    {
+      "layer": "Eye_L_LashUpper",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 364
+    },
+    {
+      "layer": "Eye_R_LashLower",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 104
+    },
+    {
+      "layer": "Eye_L_LashLower",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 119
+    },
+    {
+      "layer": "Nose_Shading",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 545
+    },
+    {
+      "layer": "Mouth_LipUpper",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 143
+    },
+    {
+      "layer": "Mouth_LipLower",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 295
+    },
+    {
+      "layer": "Mouth_Line",
+      "decodedPixelsMatch": true,
+      "nonemptyPixels": 126
+    }
+  ]
+}

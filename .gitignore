@@ -1,0 +1,8 @@
+# Downloaded installers and installed validation dependencies
+*.exe
+work/psd_validation/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

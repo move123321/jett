@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "file": "Jett_restored_motion_layers.psd",
+      "layers": 52,
+      "nonemptyLayers": 52,
+      "allDecodedLayerPixelsMatchPNGs": true,
+      "independentCompositeMatchesPreview": true
+    },
+    {
+      "file": "Jett_Cubism_import_art.psd",
+      "layers": 51,
+      "nonemptyLayers": 51,
+      "allDecodedLayerPixelsMatchPNGs": true,
+      "independentCompositeMatchesPreview": true
+    }
+  ],
+  "neutralMatchesOriginalRGBA": true,
+  "CubismGUIImportTested": false
+}
