@@ -17,7 +17,7 @@ async function pack(manifestPath){
   const {data,info}=await sharp(filename).ensureAlpha().raw().toBuffer({resolveWithObject:true});
   const left=item.x||0,top=item.y||0;
   if(left<0||top<0||left+info.width>w||top+info.height>h)throw Error('Out of canvas '+item.name);
-  const planes=[3,0,1,2].map(c=>{const p=Buffer.alloc(info.width*info.height);for(let i=0;i<p.length;i++)p[i]=data[i*4+c];return cat([u16(2),zlib.deflateSync(p)]);});
+  const planes=[3,0,1,2].map(c=>{const p=Buffer.alloc(info.width*info.height);for(let i=0;i<p.length;i++)p[i]=data[i*4+c];return manifest.cubismCompatible?cat([u16(0),p]):cat([u16(2),zlib.deflateSync(p)]);});
   const name=Buffer.from(item.name,'ascii');let pas=cat([Buffer.from([name.length]),name]);pas=cat([pas,Buffer.alloc((4-pas.length%4)%4)]);
   const extra=cat([u32(0),u32(0),pas]);
   const channelSpecs=cat([-1,0,1,2].map((id,i)=>cat([i16(id),u32(planes[i].length)])));
@@ -32,7 +32,9 @@ async function pack(manifestPath){
  let li=cat([i16(-records.length),...records,...channelsAll]);if(li.length%2)li=cat([li,Buffer.alloc(1)]);
  const lm=cat([u32(li.length),li,u32(0)]);
  const header=cat([Buffer.from('8BPS'),u16(1),Buffer.alloc(6),u16(4),u32(h),u32(w),u16(8),u16(3)]);
- fs.writeFileSync(path.resolve(base,manifest.psd),cat([header,u32(0),u32(0),u32(lm.length),lm,u16(0),...planes]));
+ // A concrete ResolutionInfo resource avoids readers that fail on an empty resource section.
+ const resources=manifest.cubismCompatible?cat([Buffer.from('8BIM'),u16(1005),Buffer.alloc(2),u32(16),u32(72*65536),u16(1),u16(1),u32(72*65536),u16(1),u16(1)]):Buffer.alloc(0);
+ fs.writeFileSync(path.resolve(base,manifest.psd),cat([header,u32(0),u32(resources.length),resources,u32(lm.length),lm,u16(0),...planes]));
  console.log(JSON.stringify({psd:manifest.psd,layers:records.length,width:w,height:h,preview:manifest.preview}));
 }
 pack(process.argv[2]).catch(e=>{console.error(e);process.exit(1)});

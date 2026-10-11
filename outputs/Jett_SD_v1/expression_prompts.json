@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "SD_master.png",
+  "prompts": [
+    {
+      "name": "blink",
+      "prompt": "Precise expression-only sprite edit for a four-state chibi avatar. Change ONLY the two eyes to gently closed eyes, neat curved dark upper eyelash lines. Keep mouth closed. Preserve absolutely everything else pixel aligned: exact character identity, head and body pose, bun, all hair strands, clothing, hands, boots, lighting, colors, composition and the ORIGINAL IMAGE DIMENSIONS 1147x1372. Do not shift, crop, zoom, rescale, redraw style, add or remove any part. Keep true transparent background. One full-body character, no text. Output must align with original when overlaid."
+    },
+    {
+      "name": "talk",
+      "prompt": "Precise expression-only sprite edit for a four-state chibi avatar. Change ONLY the tiny mouth to a small cute open talking mouth with dark interior and small pink tongue. Both eyes stay exactly open as reference. Preserve absolutely everything else pixel aligned: exact character identity, head and body pose, bun, all hair strands, clothing, hands, boots, lighting, colors, composition and the ORIGINAL IMAGE DIMENSIONS 1147x1372. Do not shift, crop, zoom, rescale, redraw style, add or remove any part. Keep true transparent background. One full-body character, no text. Output must align with original when overlaid."
+    },
+    {
+      "name": "blink_talk",
+      "prompt": "Precise expression-only sprite edit for a four-state chibi avatar. Change ONLY the two eyes to gently closed eyes with neat curved dark eyelash lines, and the tiny mouth to a small cute open talking mouth with dark interior and small pink tongue. Preserve absolutely everything else pixel aligned: exact character identity, head and body pose, bun, all hair strands, clothing, hands, boots, lighting, colors, composition and the ORIGINAL IMAGE DIMENSIONS 1147x1372. Do not shift, crop, zoom, rescale, redraw style, add or remove any part. Keep true transparent background. One full-body character, no text. Output must align with original when overlaid."
+    }
+  ]
+}

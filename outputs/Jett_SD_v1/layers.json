@@ -1,0 +1,29 @@
+{
+  "width": 1147,
+  "height": 1372,
+  "psd": "Jett_SD_expressions.psd",
+  "preview": "expressions_preview.png",
+  "cubismCompatible": true,
+  "layers": [
+    {
+      "name": "SD_master",
+      "file": "SD_master.png",
+      "hidden": false
+    },
+    {
+      "name": "blink",
+      "file": "blink.png",
+      "hidden": true
+    },
+    {
+      "name": "talk",
+      "file": "talk.png",
+      "hidden": true
+    },
+    {
+      "name": "blink_talk",
+      "file": "blink_talk.png",
+      "hidden": true
+    }
+  ]
+}

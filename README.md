@@ -4,6 +4,8 @@
 
 ## 웹에서 바로 실행
 
+[간단한 SD 아바타 열기](https://move123321.github.io/jett/sd/) — 자동 깜빡임, 말하기 미리보기, 마이크 음량 반응. 이미지 4장을 전환하는 방식이며 Cubism 리깅 모델은 아닙니다. 편집용 PNG와 4개 표정 레이어 PSD는 `outputs/Jett_SD_v1/`에 있습니다.
+
 [제트 동작 미리보기 열기](https://move123321.github.io/jett/)
 
 설치 없이 브라우저에서 실행할 수 있습니다. `docs/index.html`이 GitHub Pages 배포본입니다.
