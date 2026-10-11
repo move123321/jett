@@ -1,8 +1,38 @@
 {
-  "layerCount": 29,
+  "layerCount": 30,
   "layerPNGPixelsVerified": true,
   "neutralOpaquePixelsEqualMaster": true,
-  "maxCompositeChannelRoundingDifference": 1,
-  "cubismImportVerified": false,
-  "nativeModelCreated": false
+  "maxCompositeChannelRoundingDifference": 5,
+  "cubismImportVerified": true,
+  "nativeModelCreated": true,
+  "nativeRigComplete": false,
+  "verifiedNativeParameters": [
+    "ParamEyeLOpen",
+    "ParamEyeROpen",
+    "ParamMouthOpenY",
+    "ParamBodyAngleZ",
+    "ParamAngleZ"
+  ],
+  "eyeAndMouthMethod": "opacity crossfade between alternate art",
+  "headRotationDegrees": [
+    -5,
+    0,
+    5
+  ],
+  "bodyRotationDegrees": [
+    -3,
+    0,
+    3
+  ],
+  "remaining": [
+    "eye gaze XY and white underpainting",
+    "brows",
+    "head XY",
+    "hair hood accessory physics",
+    "neck overlap cleanup",
+    "runtime playback and tracking test"
+  ],
+  "runtimeExportCreated": true,
+  "runtimePlaybackVerified": false,
+  "nativeSaveVerified": true
 }

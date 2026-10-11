@@ -1,0 +1,10 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Jett_SD.moc3",
+		"Textures": [
+			"Jett_SD.2048/texture_00.png"
+		],
+		"DisplayInfo": "Jett_SD.cdi3.json"
+	}
+}

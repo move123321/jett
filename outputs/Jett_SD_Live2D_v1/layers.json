@@ -4,15 +4,15 @@
   "psd": "Jett_SD_parts.psd",
   "preview": "assembled_preview.png",
   "cubismCompatible": true,
-  "status": "PARTITIONED_ART_NOT_RIGGED",
+  "status": "PARTIAL_NATIVE_RIG_EXPORTED",
   "layers": [
     {
       "name": "Restore_FacialSkin",
       "file": "parts/Restore_FacialSkin.png",
-      "x": 739,
-      "y": 643,
+      "x": 435,
+      "y": 480,
       "hidden": false,
-      "pixels": 1
+      "pixels": 59120
     },
     {
       "name": "Body_Base",
@@ -20,7 +20,7 @@
       "x": 0,
       "y": 7,
       "hidden": false,
-      "pixels": 53711
+      "pixels": 29062
     },
     {
       "name": "Leg_R",
@@ -60,7 +60,7 @@
       "x": 447,
       "y": 667,
       "hidden": false,
-      "pixels": 30062
+      "pixels": 29101
     },
     {
       "name": "Neck",
@@ -69,6 +69,14 @@
       "y": 696,
       "hidden": false,
       "pixels": 1224
+    },
+    {
+      "name": "Hair_EdgeResidual",
+      "file": "parts/Hair_EdgeResidual.png",
+      "x": 0,
+      "y": 0,
+      "hidden": false,
+      "pixels": 25610
     },
     {
       "name": "Head_Base",
@@ -238,5 +246,7 @@
       "hidden": true,
       "pixels": 2622
     }
-  ]
+  ],
+  "nativeModel": "Jett_SD_rig.cmo3",
+  "runtimeModel": "runtime/Jett_SD.model3.json"
 }

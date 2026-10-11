@@ -38,7 +38,7 @@ async function save(name,b,hidden=false){let x0=w,y0=h,x1=-1,y1=-1,count=0;for(l
 // Backing is visible only behind the facial features. It does not replace the original visible face.
 const backingPath='C:/Users/seogh/.codex/generated_images/01a0e753-0e91-7842-95df-8f771e152508/exec-b160d64d-75f3-4440-bb79-1555d0d74ca3.png';
 const back=await sharp(backingPath).resize(w,h,{fit:'fill'}).ensureAlpha().raw().toBuffer(),bb=Buffer.alloc(data.length);
-for(let y=480;y<680;y++)for(let x=435;x<780;x++){let n=(y*w+x)*4;if(data[n+3]===255&&['Head_Base','Brow_R','Brow_L','Eye_R_White','Eye_L_White','Eye_R_Iris','Eye_L_Iris','Eye_R_Lash','Eye_L_Lash','Nose','Mouth_Closed'].includes(entries[labels[y*w+x]].name))back.copy(bb,n,n,n+4)}
+for(let y=480;y<680;y++)for(let x=435;x<780;x++){let n=(y*w+x)*4;if(data[n+3]>=250&&['Head_Base','Brow_R','Brow_L','Eye_R_White','Eye_L_White','Eye_R_Iris','Eye_L_Iris','Eye_R_Lash','Eye_L_Lash','Nose','Mouth_Closed'].includes(entries[labels[y*w+x]].name)){back.copy(bb,n,n,n+4);bb[n+3]=255}}
 layers.push(await save('Restore_FacialSkin',bb));
 for(let k=0;k<entries.length;k++){let b=Buffer.alloc(data.length);for(let i=0;i<labels.length;i++)if(labels[i]===k&&data[i*4+3]){data.copy(b,i*4,i*4,i*4+4);data.copy(joined,i*4,i*4,i*4+4)}layers.push(await save(entries[k].name,b))}
 // Alternate eye/mouth artwork remains hidden until keyed in Cubism.
